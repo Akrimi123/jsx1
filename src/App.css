@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: rgb(2, 37, 48);
+  border: solid, black;
+}
+img{
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+}
+h1{
+  color: red;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+  height: 15vh;
+  width: 70vw;
+  min-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+a{
+  position: relative;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+a:after{
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0%;
+  bottom: 45px;
+  transition-duration: 0.3s;
+}
+a:hover{
+  color:#ffffff;
+}
+a:hover:after{
+  width: 100%;
+
+}
